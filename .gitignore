@@ -1,0 +1,5 @@
+# Ignore OS artifacts
+*.DS_Store
+Thumbs.db
+
+elasticsearch/data

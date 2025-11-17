@@ -1,0 +1,78 @@
+## Filebeat configuration
+## https://github.com/elastic/beats/blob/main/deploy/docker/filebeat.docker.yml
+#
+
+name: filebeat
+
+filebeat.config:
+  modules:
+    path: ${path.config}/modules.d/*.yml
+    reload.enabled: false
+
+# filebeat.autodiscover:
+#   providers:
+#     # The Docker autodiscover provider automatically retrieves logs from Docker
+#     # containers as they start and stop.
+#     - type: docker
+#       hints.enabled: true
+
+processors:
+  - drop_event:
+      when:
+        equals:
+          log.level: "debug"
+  # - add_host_metadata:
+  #     when.not.contains.tags: forwarded
+  # - add_cloud_metadata: ~
+  # - add_docker_metadata: ~
+  # - add_kubernetes_metadata: ~
+
+monitoring:
+  enabled: true
+  elasticsearch:
+    hosts: ["127.0.0.1:9200"]
+    username: beats_system
+    password: changeme
+
+# output.elasticsearch:
+#   # hosts: [ http://elasticsearch:9200 ]
+#   hosts: [ http://127.0.0.1:9200 ]
+#   username: filebeat_internal
+#   # password: ${FILEBEAT_INTERNAL_PASSWORD}
+#   password: changeme
+
+output.logstash:
+  hosts: ["127.0.0.1:5044"]
+  username: logstash_internal
+  password: changeme
+  # index: "python-logs-%{+yyyy.MM.dd}"
+
+## HTTP endpoint for health checking
+## https://www.elastic.co/guide/en/beats/filebeat/current/http-endpoint.html
+#
+http:
+  enabled: true
+  host: 0.0.0.0
+
+filebeat.inputs:
+  - type: filestream
+  # - type: log
+    id: xx-python
+    enabled: true
+    paths:
+      - /Users/xx/workspace/docker-elk/data/patient-backend.info.log
+      - /Users/xx/workspace/docker-elk/data/patient-backend.error.log
+    fields_under_root: true 
+    fields:
+      log_topic: xx-python
+    parsers:
+      - multiline:
+          type: pattern
+          pattern: '^\[[0-9]{4}-[0-9]{2}-[0-9]{2}'
+          negate: true
+          match: after
+
+    # harvester_buffer_size: 16384
+    # max_bytes: 10485760
+    # scan_frequency: 10s
+    # tail_files: true

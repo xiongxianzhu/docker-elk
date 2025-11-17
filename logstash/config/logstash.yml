@@ -1,0 +1,16 @@
+---
+## Default Logstash configuration from Logstash base image.
+## https://github.com/elastic/logstash/blob/main/docker/data/logstash/config/logstash-full.yml
+#
+http.host: 0.0.0.0
+
+node.name: logstash
+
+# X-Pack Monitoring
+# https://www.elastic.co/guide/en/logstash/current/monitoring-logstash.html
+# https://github.com/elastic/logstash/blob/main/config/logstash.yml
+# xpack.monitoring.enabled: true
+# # xpack.monitoring.elasticsearch.username: logstash_system
+# xpack.monitoring.elasticsearch.username: logstash_internal
+# xpack.monitoring.elasticsearch.password: ${LOGSTASH_INTERNAL_PASSWORD}
+# xpack.monitoring.elasticsearch.hosts: [ "http://elasticsearch:9200" ]

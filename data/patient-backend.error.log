@@ -1,0 +1,279 @@
+[2023-10-19 15:12:11 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/ihospital.py:147]
+获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out')), Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1040, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/workspace/zdfy-app-server/src/api/ihospital.py", line 121, in get_ihospital_rsv_info
+    code, bh_data = third_party.get_ih_rsv_info(user_id, HTTP.get_hospital_id(), extras=extras)
+  File "/Users/xx/workspace/zdfy-app-server/src/biz/third_party.py", line 334, in get_ih_rsv_info
+    return BHService().invoke("queryRegAppointment", payload)
+  File "/Users/xx/workspace/zdfy-app-server/src/ihbackend/__init__.py", line 172, in invoke
+    got, data = self.post(payload=payload, headers=headers, timeout=timeout, encrypt=need_encrypt)
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 90, in post
+    return self.call(
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 65, in call
+    r = fn(self.url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+[2023-10-19 15:12:11 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:254]
+attentionStatus400: url: /api/ihospital/reservation/info headers:Host: frp01.carekd.com
+User-Agent: okhttp/3.14.9
+Accept-Encoding: gzip
+Remote-Host: 14.23.155.6
+X-Api-Version: 1
+X-App-Version: 5.8.0-155
+X-Auth: NgFa1hy87XDkP0Zq50UtFCu5iKg=
+X-Caremodel: 0
+X-Device-Id: 1708e50cd715cbf3samsung
+X-Device-Model: SM-G9550
+X-Device-Name: Galaxy%20S8%2B
+X-Device-Version: 9
+X-Fontsize: 2
+X-Forwarded-For: 14.23.155.6, 127.0.0.1
+X-Hospital-Id: 1
+X-Ostype: android
+X-Real-Ip: 14.23.155.6
+X-Relative-Id: 279570
+X-Seed: 1697699455794
+X-Serial: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+X-User-Id: 279570
+
+ response_content: {"message": "获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out'))", "status": 400}
+[2023-10-19 15:12:20 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/ihospital.py:147]
+获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out')), Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1040, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/workspace/zdfy-app-server/src/api/ihospital.py", line 121, in get_ihospital_rsv_info
+    code, bh_data = third_party.get_ih_rsv_info(user_id, HTTP.get_hospital_id(), extras=extras)
+  File "/Users/xx/workspace/zdfy-app-server/src/biz/third_party.py", line 334, in get_ih_rsv_info
+    return BHService().invoke("queryRegAppointment", payload)
+  File "/Users/xx/workspace/zdfy-app-server/src/ihbackend/__init__.py", line 172, in invoke
+    got, data = self.post(payload=payload, headers=headers, timeout=timeout, encrypt=need_encrypt)
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 90, in post
+    return self.call(
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 65, in call
+    r = fn(self.url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+[2023-10-19 15:12:20 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:254]
+attentionStatus400: url: /api/ihospital/reservation/info headers:Host: frp01.carekd.com
+User-Agent: okhttp/3.14.9
+Accept-Encoding: gzip
+Remote-Host: 14.23.155.6
+X-Api-Version: 1
+X-App-Version: 5.8.0-155
+X-Auth: lO72Q6ohVwnAzO4xsRE80HkHL08=
+X-Caremodel: 0
+X-Device-Id: 1708e50cd715cbf3samsung
+X-Device-Model: SM-G9550
+X-Device-Name: Galaxy%20S8%2B
+X-Device-Version: 9
+X-Fontsize: 2
+X-Forwarded-For: 14.23.155.6, 127.0.0.1
+X-Hospital-Id: 1
+X-Ostype: android
+X-Real-Ip: 14.23.155.6
+X-Relative-Id: 279570
+X-Seed: 1697699464699
+X-Serial: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+X-User-Id: 279570
+
+ response_content: {"message": "获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out'))", "status": 400}
+[2023-10-19 15:14:50 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/ihospital.py:147]
+获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out')), Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1040, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/workspace/zdfy-app-server/src/api/ihospital.py", line 121, in get_ihospital_rsv_info
+    code, bh_data = third_party.get_ih_rsv_info(user_id, HTTP.get_hospital_id(), extras=extras)
+  File "/Users/xx/workspace/zdfy-app-server/src/biz/third_party.py", line 334, in get_ih_rsv_info
+    return BHService().invoke("queryRegAppointment", payload)
+  File "/Users/xx/workspace/zdfy-app-server/src/ihbackend/__init__.py", line 172, in invoke
+    got, data = self.post(payload=payload, headers=headers, timeout=timeout, encrypt=need_encrypt)
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 90, in post
+    return self.call(
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 65, in call
+    r = fn(self.url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+[2023-10-19 15:14:50 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:254]
+attentionStatus400: url: /api/ihospital/reservation/info headers:Host: frp01.carekd.com
+User-Agent: okhttp/3.14.9
+Accept-Encoding: gzip
+Remote-Host: 14.23.155.6
+X-Api-Version: 1
+X-App-Version: 5.8.0-155
+X-Auth: Hh7RNrQrN67XkleaIdi6tlp1-18=
+X-Caremodel: 0
+X-Device-Id: 1708e50cd715cbf3samsung
+X-Device-Model: SM-G9550
+X-Device-Name: Galaxy%20S8%2B
+X-Device-Version: 9
+X-Fontsize: 2
+X-Forwarded-For: 14.23.155.6, 127.0.0.1
+X-Hospital-Id: 1
+X-Ostype: android
+X-Real-Ip: 14.23.155.6
+X-Relative-Id: 279570
+X-Seed: 1697699614354
+X-Serial: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+X-User-Id: 279570
+
+ response_content: {"message": "获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out'))", "status": 400}

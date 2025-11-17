@@ -1,0 +1,867 @@
+[2023-10-19 15:09:35 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+ * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=7r2BB7eNPNnVkjgoePTJ71pbsIQ=, auth=7r2BB7eNPNnVkjgoePTJ71pbsIQ=
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=NgFa1hy87XDkP0Zq50UtFCu5iKg=, auth=NgFa1hy87XDkP0Zq50UtFCu5iKg=
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=WKFTZEtwyYPlC1t8MPQHgaQZL1Q=, auth=WKFTZEtwyYPlC1t8MPQHgaQZL1Q=
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=gIZycubsBevYANWcV5_pwgNKTSA=, auth=gIZycubsBevYANWcV5_pwgNKTSA=
+[2023-10-19 15:10:56 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:10:56] "GET /api/window HTTP/1.1" 200 -
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/ihbackend/__init__.py:164]
+准备请求百慧接口: {'Ihis-PartnerId': 'T000012', 'Ihis-Api-Id': 'queryRegAppointment', 'Ihis-Time': '1697699456597', 'Ihis-executeId': 'ab9b625c-2205-455e-8abf-a21930e2d3ad', 'Ihis-Sign': '0DE5FF87E9BBAC54685DDD7106C6025A', 'Ihis-IsEncrypt': 'Y'} 
+ payload: {'patMedNo': '8000002891', 'patName': '陈昌伟', 'idcardNo': '440882199908271515', 'birthday': '1999-08-27', 'sex': 'M', 'mobile': '13420100620', 'hospitalDistrict': 'BYQ', 'channel': 'THIRD_APP'} 
+ need_encrypt: True
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=TFB9LqPDnb8rwXgQCpZNVGfbxHE=, auth=TFB9LqPDnb8rwXgQCpZNVGfbxHE=
+[2023-10-19 15:10:56 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:10:56] "GET /api/settings?type=all HTTP/1.1" 200 -
+[2023-10-19 15:10:56 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:10:56] "GET /api/marquees HTTP/1.1" 200 -
+[2023-10-19 15:10:56 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:10:56] "GET /api/modules?code=index_down HTTP/1.1" 200 -
+[2023-10-19 15:10:56 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:10:56] "GET /api/dict/settings HTTP/1.1" 200 -
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=USX63ewFuyRprbkxmBKAPcYms_I=, auth=USX63ewFuyRprbkxmBKAPcYms_I=
+[2023-10-19 15:10:56 INFO] [in /Users/xx/workspace/zdfy-app-server/src/hbackend/hbackendrequest.py:91]
+请求平台接口[GetPersonInfo.go][request_id: e4a76872bbc4a431922cc8f88552b834]
+
+url: http://10.168.199.136:1808/HBackend/GetPersonInfo.go
+
+请求方式: GET
+
+请求参数: {
+    "idenno": "440882199908271515"
+}
+
+headers参数: {
+    "x-code": "c4ab4b4d",
+    "x-random": "970e769222144686",
+    "x-sign": "rGYt9zUTrxjdgFbZKZH4XzOMcBs",
+    "x-time": "1697699456744"
+}
+
+HTTP状态码: 200
+
+响应结果: {
+    "address": "广东省广州市天河区广东省广州市",
+    "birthday": "1999-08-27 00:00:00",
+    "cardNo": "8000002891",
+    "cardType": "1",
+    "errorMsg": null,
+    "idenno": "440882199908271515",
+    "isAuth": "1",
+    "mcardNo": null,
+    "medicalType": null,
+    "name": "陈昌伟",
+    "pactCode": "201",
+    "pactName": "广州医保",
+    "patientType": "2",
+    "paykindCode": "02",
+    "paykindName": "医保",
+    "relaPhone": "13420100620",
+    "resultCode": null,
+    "sexCode": "M"
+}
+
+耗时: 0.029626131057739258秒
+[2023-10-19 15:10:56 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/biz/user.py:1783]
+HIS查询到的用户信息 got: True,  his_user_info: {"address": "广东省广州市天河区广东省广州市", "birthday": "1999-08-27 00:00:00", "cardNo": "8000002891", "cardType": "1", "errorMsg": null, "idenno": "440882199908271515", "isAuth": "1", "mcardNo": null, "medicalType": null, "name": "陈昌伟", "pactCode": "201", "pactName": "广州医保", "patientType": "2", "paykindCode": "02", "paykindName": "医保", "relaPhone": "13420100620", "resultCode": null, "sexCode": "M"}
+[2023-10-19 15:10:56 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:10:56] "GET /api/user/userinfo?desensitized=&verify_code= HTTP/1.1" 200 -
+[2023-10-19 15:10:56 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:10:56] "GET /api/myreservation/0?is_examine=0&status=2&type=pendingEvent HTTP/1.1" 200 -
+[2023-10-19 15:10:57 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:10:57] "GET /api/version/android HTTP/1.1" 200 -
+[2023-10-19 15:10:59 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:10:59 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=Gbo1c3t3AFQEi2u1hAvDfmdRNOQ=, auth=Gbo1c3t3AFQEi2u1hAvDfmdRNOQ=
+[2023-10-19 15:10:59 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:10:59] "GET /api/notification/badge?user_id=279570 HTTP/1.1" 200 -
+[2023-10-19 15:11:00 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:00 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=LMmIrVYDfFp-RuHtZFPrNN0oJWo=, auth=LMmIrVYDfFp-RuHtZFPrNN0oJWo=
+[2023-10-19 15:11:00 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:00] "POST /api/user/bindregisterid HTTP/1.1" 200 -
+[2023-10-19 15:11:03 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:03 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=ZV4BZ1rCV0AsRtirBIbkEy8k80g=, auth=ZV4BZ1rCV0AsRtirBIbkEy8k80g=
+[2023-10-19 15:11:03 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:03] "GET /api/version/android HTTP/1.1" 200 -
+[2023-10-19 15:11:03 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:03] "GET /api/myreservation/0?is_examine=0&status=1 HTTP/1.1" 200 -
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=lO72Q6ohVwnAzO4xsRE80HkHL08=, auth=lO72Q6ohVwnAzO4xsRE80HkHL08=
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=M9cWndjTd3fOrbglPngonagIX6M=, auth=M9cWndjTd3fOrbglPngonagIX6M=
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=mFCtZU8ypfqCDpSqO39SjA9SqUs=, auth=mFCtZU8ypfqCDpSqO39SjA9SqUs=
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=DR2ndeXW2P4DbmpyjMpPRxKNAR8=, auth=DR2ndeXW2P4DbmpyjMpPRxKNAR8=
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=oSEfPE1GkCKZZ9SMX46IRcVyZqw=, auth=oSEfPE1GkCKZZ9SMX46IRcVyZqw=
+[2023-10-19 15:11:05 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:05] "GET /api/version/android HTTP/1.1" 200 -
+[2023-10-19 15:11:05 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:05] "GET /api/marquees HTTP/1.1" 200 -
+[2023-10-19 15:11:05 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:05] "GET /api/modules?code=index_down HTTP/1.1" 200 -
+[2023-10-19 15:11:05 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/ihbackend/__init__.py:164]
+准备请求百慧接口: {'Ihis-PartnerId': 'T000012', 'Ihis-Api-Id': 'queryRegAppointment', 'Ihis-Time': '1697699465419', 'Ihis-executeId': '70013a68-ed9f-4012-8db6-74d3a100c4de', 'Ihis-Sign': '3C8865E8D02A03AE61DA5E3A2AC53619', 'Ihis-IsEncrypt': 'Y'} 
+ payload: {'patMedNo': '8000002891', 'patName': '陈昌伟', 'idcardNo': '440882199908271515', 'birthday': '1999-08-27', 'sex': 'M', 'mobile': '13420100620', 'hospitalDistrict': 'BYQ', 'channel': 'THIRD_APP'} 
+ need_encrypt: True
+[2023-10-19 15:11:05 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:05] "GET /api/settings?type=all HTTP/1.1" 200 -
+[2023-10-19 15:11:05 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:05] "GET /api/myreservation/0?is_examine=0&status=2&type=pendingEvent HTTP/1.1" 200 -
+[2023-10-19 15:11:08 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:08 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=lj0XL58_8wi47_ZUKqkH9XcV7aw=, auth=lj0XL58_8wi47_ZUKqkH9XcV7aw=
+[2023-10-19 15:11:08 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:08] "GET /api/reminder/info?type=outpatient_deposit_recharge HTTP/1.1" 200 -
+[2023-10-19 15:11:08 INFO] [in /Users/xx/workspace/zdfy-app-server/src/hbackend/hbackendrequest.py:91]
+请求平台接口[universal/CheckOutpatientForPrepay.go][request_id: 33958069a5a8316bfa37ed0f31acab89]
+
+url: http://10.168.199.136:1808/HBackend/universal/CheckOutpatientForPrepay.go
+
+请求方式: POST
+
+请求参数: {
+    "appInfo": "{\"CardNo\": \"8000002891\", \"Name\": \"陈昌伟\", \"TranNo\": \"067403301674a3ba8e1bac288eaa9e14\", \"UserID\": \"APP001\", \"Source\": \"2\"}"
+}
+
+headers参数: {
+    "x-code": "c4ab4b4d",
+    "x-random": "9977b2b246f14b18",
+    "x-sign": "f0DfaJRE9mR8_5S7fxMdhbxZwVA",
+    "x-time": "1697699468598"
+}
+
+HTTP状态码: 200
+
+响应结果: {
+    "Response": {
+        "ErrorMsg": "调用接口正常。",
+        "RegisterList": {
+            "RegisterInfo": {
+                "CARDNO": "8000002891",
+                "CLINICID": "297180912",
+                "DEPTCODE": "0363",
+                "DEPTNAME": "血液专科",
+                "DOCTID": "",
+                "DOCTNAME": "",
+                "ISONEACCOUNT": "0",
+                "PREPAYCOST": "0",
+                "PREPAYLIMIT": "1000",
+                "PRETIMES": "0",
+                "PRETOTAL": "0",
+                "REGDATE": "2023-10-20 16:30:00"
+            }
+        },
+        "ResultCode": "0"
+    }
+}
+
+耗时: 0.05013704299926758秒
+[2023-10-19 15:11:08 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:08] "GET /api/outpatient/deposit/check HTTP/1.1" 200 -
+[2023-10-19 15:11:10 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:10] "GET /api/outpatient/settlementtypelist HTTP/1.1" 200 -
+[2023-10-19 15:11:24 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:24] "GET /api/outpatient/settlementtypelist HTTP/1.1" 200 -
+[2023-10-19 15:11:28 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:28 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=kfLp8uXoR1VkS1f8PHCh4V3_u04=, auth=kfLp8uXoR1VkS1f8PHCh4V3_u04=
+[2023-10-19 15:11:28 INFO] [in /Users/xx/workspace/zdfy-app-server/src/hbackend/hbackendrequest.py:91]
+请求平台接口[universal/OpClinicBalancePactType.go][request_id: 28cb46795cfc48e37c2bcef8462ba0dc]
+
+url: http://10.168.199.136:1808/HBackend/universal/OpClinicBalancePactType.go
+
+请求方式: POST
+
+请求参数: {
+    "appInfo": "{\"CardNo\": \"8000002891\", \"ClinicID\": \"297180912\", \"Settlement\": \"\", \"InsuranceTypeOne\": \"自费\", \"InsuranceTypeTwo\": \"\", \"InsuranceTypeThree\": \"\", \"Mark\": \"\", \"OperDate\": \"2023-10-19 15:11:28\", \"UserID\": \"APP001\", \"Source\": \"2\"}"
+}
+
+headers参数: {
+    "x-code": "c4ab4b4d",
+    "x-random": "b8468e0f13e24288",
+    "x-sign": "6mxn8NZREhHYeL0Fqkxtfcb3fP4",
+    "x-time": "1697699488858"
+}
+
+HTTP状态码: 200
+
+响应结果: {
+    "Response": {
+        "ErrorMsg": "",
+        "ResultCode": "0",
+        "ResultData": {
+            "ResultMark": "0",
+            "ResultMessage": "结算类型通知成功！"
+        }
+    }
+}
+
+耗时: 0.07920098304748535秒
+[2023-10-19 15:11:28 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:28] "POST /api/outpatient/updatesettlementtype HTTP/1.1" 200 -
+[2023-10-19 15:11:29 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:29 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=gcSJMw7UU6VV_39YUPGGXqZY4sM=, auth=gcSJMw7UU6VV_39YUPGGXqZY4sM=
+[2023-10-19 15:11:29 INFO] [in /Users/xx/workspace/zdfy-app-server/src/hbackend/hbackendrequest.py:91]
+请求平台接口[universal/CheckOutpatientForPrepay.go][request_id: ba96748bf361c4857801760ccb9b533f]
+
+url: http://10.168.199.136:1808/HBackend/universal/CheckOutpatientForPrepay.go
+
+请求方式: POST
+
+请求参数: {
+    "appInfo": "{\"CardNo\": \"8000002891\", \"Name\": \"陈昌伟\", \"TranNo\": \"d23384052eb8af769fc724fcddfd37b4\", \"UserID\": \"APP001\", \"Source\": \"2\"}"
+}
+
+headers参数: {
+    "x-code": "c4ab4b4d",
+    "x-random": "bd6c092d4fcc4fa6",
+    "x-sign": "6faYjjhcs-jr-8fiFTz22MznBAo",
+    "x-time": "1697699489214"
+}
+
+HTTP状态码: 200
+
+响应结果: {
+    "Response": {
+        "ErrorMsg": "调用接口正常。",
+        "RegisterList": {
+            "RegisterInfo": {
+                "CARDNO": "8000002891",
+                "CLINICID": "297180912",
+                "DEPTCODE": "0363",
+                "DEPTNAME": "血液专科",
+                "DOCTID": "",
+                "DOCTNAME": "",
+                "ISONEACCOUNT": "0",
+                "PREPAYCOST": "0",
+                "PREPAYLIMIT": "1000",
+                "PRETIMES": "0",
+                "PRETOTAL": "0",
+                "REGDATE": "2023-10-20 16:30:00"
+            }
+        },
+        "ResultCode": "0"
+    }
+}
+
+耗时: 0.032074928283691406秒
+[2023-10-19 15:11:29 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:29] "POST /api/outpatient/deposit/pay HTTP/1.1" 200 -
+[2023-10-19 15:11:43 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:11:43 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=0wvPvMgEwcnsmb6Dtfn-amBJnXY=, auth=0wvPvMgEwcnsmb6Dtfn-amBJnXY=
+[2023-10-19 15:11:43 INFO] [in /Users/xx/workspace/zdfy-app-server/src/hbackend/hbackendrequest.py:91]
+请求平台接口[universal/CheckOutpatientForPrepay.go][request_id: ad744e3179555200c774038a673c2f7d]
+
+url: http://10.168.199.136:1808/HBackend/universal/CheckOutpatientForPrepay.go
+
+请求方式: POST
+
+请求参数: {
+    "appInfo": "{\"CardNo\": \"8000002891\", \"Name\": \"陈昌伟\", \"TranNo\": \"7de77c23f06af66ab1055ab68e238434\", \"UserID\": \"APP001\", \"Source\": \"2\"}"
+}
+
+headers参数: {
+    "x-code": "c4ab4b4d",
+    "x-random": "3f512e2040b8486e",
+    "x-sign": "YtkqlMdPokcd0XfaXGvhqfgsv2I",
+    "x-time": "1697699503810"
+}
+
+HTTP状态码: 200
+
+响应结果: {
+    "Response": {
+        "ErrorMsg": "调用接口正常。",
+        "RegisterList": {
+            "RegisterInfo": {
+                "CARDNO": "8000002891",
+                "CLINICID": "297180912",
+                "DEPTCODE": "0363",
+                "DEPTNAME": "血液专科",
+                "DOCTID": "",
+                "DOCTNAME": "",
+                "ISONEACCOUNT": "0",
+                "PREPAYCOST": "0",
+                "PREPAYLIMIT": "1000",
+                "PRETIMES": "0",
+                "PRETOTAL": "0",
+                "REGDATE": "2023-10-20 16:30:00"
+            }
+        },
+        "ResultCode": "0"
+    }
+}
+
+耗时: 0.031777143478393555秒
+[2023-10-19 15:11:43 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:11:43] "GET /api/outpatient/deposit/check HTTP/1.1" 200 -
+[2023-10-19 15:12:11 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/ihospital.py:147]
+获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out')), Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1040, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/workspace/zdfy-app-server/src/api/ihospital.py", line 121, in get_ihospital_rsv_info
+    code, bh_data = third_party.get_ih_rsv_info(user_id, HTTP.get_hospital_id(), extras=extras)
+  File "/Users/xx/workspace/zdfy-app-server/src/biz/third_party.py", line 334, in get_ih_rsv_info
+    return BHService().invoke("queryRegAppointment", payload)
+  File "/Users/xx/workspace/zdfy-app-server/src/ihbackend/__init__.py", line 172, in invoke
+    got, data = self.post(payload=payload, headers=headers, timeout=timeout, encrypt=need_encrypt)
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 90, in post
+    return self.call(
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 65, in call
+    r = fn(self.url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+[2023-10-19 15:12:11 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:254]
+attentionStatus400: url: /api/ihospital/reservation/info headers:Host: frp01.carekd.com
+User-Agent: okhttp/3.14.9
+Accept-Encoding: gzip
+Remote-Host: 14.23.155.6
+X-Api-Version: 1
+X-App-Version: 5.8.0-155
+X-Auth: NgFa1hy87XDkP0Zq50UtFCu5iKg=
+X-Caremodel: 0
+X-Device-Id: 1708e50cd715cbf3samsung
+X-Device-Model: SM-G9550
+X-Device-Name: Galaxy%20S8%2B
+X-Device-Version: 9
+X-Fontsize: 2
+X-Forwarded-For: 14.23.155.6, 127.0.0.1
+X-Hospital-Id: 1
+X-Ostype: android
+X-Real-Ip: 14.23.155.6
+X-Relative-Id: 279570
+X-Seed: 1697699455794
+X-Serial: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+X-User-Id: 279570
+
+ response_content: {"message": "获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114eff9a0>: Failed to establish a new connection: [Errno 60] Operation timed out'))", "status": 400}
+[2023-10-19 15:12:11 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:12:11] "GET /api/ihospital/reservation/info HTTP/1.1" 400 -
+[2023-10-19 15:12:20 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/ihospital.py:147]
+获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out')), Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1040, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/workspace/zdfy-app-server/src/api/ihospital.py", line 121, in get_ihospital_rsv_info
+    code, bh_data = third_party.get_ih_rsv_info(user_id, HTTP.get_hospital_id(), extras=extras)
+  File "/Users/xx/workspace/zdfy-app-server/src/biz/third_party.py", line 334, in get_ih_rsv_info
+    return BHService().invoke("queryRegAppointment", payload)
+  File "/Users/xx/workspace/zdfy-app-server/src/ihbackend/__init__.py", line 172, in invoke
+    got, data = self.post(payload=payload, headers=headers, timeout=timeout, encrypt=need_encrypt)
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 90, in post
+    return self.call(
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 65, in call
+    r = fn(self.url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+[2023-10-19 15:12:20 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:254]
+attentionStatus400: url: /api/ihospital/reservation/info headers:Host: frp01.carekd.com
+User-Agent: okhttp/3.14.9
+Accept-Encoding: gzip
+Remote-Host: 14.23.155.6
+X-Api-Version: 1
+X-App-Version: 5.8.0-155
+X-Auth: lO72Q6ohVwnAzO4xsRE80HkHL08=
+X-Caremodel: 0
+X-Device-Id: 1708e50cd715cbf3samsung
+X-Device-Model: SM-G9550
+X-Device-Name: Galaxy%20S8%2B
+X-Device-Version: 9
+X-Fontsize: 2
+X-Forwarded-For: 14.23.155.6, 127.0.0.1
+X-Hospital-Id: 1
+X-Ostype: android
+X-Real-Ip: 14.23.155.6
+X-Relative-Id: 279570
+X-Seed: 1697699464699
+X-Serial: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+X-User-Id: 279570
+
+ response_content: {"message": "获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114f98640>: Failed to establish a new connection: [Errno 60] Operation timed out'))", "status": 400}
+[2023-10-19 15:12:20 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:12:20] "GET /api/ihospital/reservation/info HTTP/1.1" 400 -
+[2023-10-19 15:12:48 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+ * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[2023-10-19 15:12:48 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:12:48 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=o5cKEiMFpQgHcXyxOWreLtl4zn0=, auth=o5cKEiMFpQgHcXyxOWreLtl4zn0=
+[2023-10-19 15:12:48 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:12:48] "GET /api/version/android HTTP/1.1" 200 -
+[2023-10-19 15:12:48 INFO] [in /Users/xx/workspace/zdfy-app-server/src/hbackend/hbackendrequest.py:91]
+请求平台接口[universal/CheckOutpatientForPrepay.go][request_id: 67c925675838fa4ce2c97b1c23ca279b]
+
+url: http://10.168.199.136:1808/HBackend/universal/CheckOutpatientForPrepay.go
+
+请求方式: POST
+
+请求参数: {
+    "appInfo": "{\"CardNo\": \"8000002891\", \"Name\": \"陈昌伟\", \"TranNo\": \"58afbc07d33971252d9fe4f4648c6371\", \"UserID\": \"APP001\", \"Source\": \"2\"}"
+}
+
+headers参数: {
+    "x-code": "c4ab4b4d",
+    "x-random": "9e670b37120e4ce4",
+    "x-sign": "u74mT1YnDdX7Yh52OUeL-uEffF8",
+    "x-time": "1697699568611"
+}
+
+HTTP状态码: 200
+
+响应结果: {
+    "Response": {
+        "ErrorMsg": "调用接口正常。",
+        "RegisterList": {
+            "RegisterInfo": {
+                "CARDNO": "8000002891",
+                "CLINICID": "297180912",
+                "DEPTCODE": "0363",
+                "DEPTNAME": "血液专科",
+                "DOCTID": "",
+                "DOCTNAME": "",
+                "ISONEACCOUNT": "0",
+                "PREPAYCOST": "0",
+                "PREPAYLIMIT": "1000",
+                "PRETIMES": "0",
+                "PRETOTAL": "0",
+                "REGDATE": "2023-10-20 16:30:00"
+            }
+        },
+        "ResultCode": "0"
+    }
+}
+
+耗时: 0.051374197006225586秒
+[2023-10-19 15:12:48 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:12:48] "GET /api/outpatient/deposit/check HTTP/1.1" 200 -
+[2023-10-19 15:12:51 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:12:51] "GET /api/outpatient/settlementtypelist HTTP/1.1" 200 -
+[2023-10-19 15:12:54 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:12:54 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=RR8PRMTPSvHcdaXmmakqhjtLul0=, auth=RR8PRMTPSvHcdaXmmakqhjtLul0=
+[2023-10-19 15:13:27 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:13:27 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=pfh0rqrvvzTsfIXiJZ1kn9XgetM=, auth=pfh0rqrvvzTsfIXiJZ1kn9XgetM=
+[2023-10-19 15:13:27 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:27] "GET /api/version/android HTTP/1.1" 200 -
+[2023-10-19 15:13:27 INFO] [in /Users/xx/workspace/zdfy-app-server/src/hbackend/hbackendrequest.py:91]
+请求平台接口[universal/CheckOutpatientForPrepay.go][request_id: f3251c4377cae815025b87798edbbb11]
+
+url: http://10.168.199.136:1808/HBackend/universal/CheckOutpatientForPrepay.go
+
+请求方式: POST
+
+请求参数: {
+    "appInfo": "{\"CardNo\": \"8000002891\", \"Name\": \"陈昌伟\", \"TranNo\": \"a857d89e9ce97ce16959936095fad386\", \"UserID\": \"APP001\", \"Source\": \"2\"}"
+}
+
+headers参数: {
+    "x-code": "c4ab4b4d",
+    "x-random": "0f074795a114491c",
+    "x-sign": "DAR2-XkyHv7UQnWtlU1ebHWXILU",
+    "x-time": "1697699607672"
+}
+
+HTTP状态码: 200
+
+响应结果: {
+    "Response": {
+        "ErrorMsg": "调用接口正常。",
+        "RegisterList": {
+            "RegisterInfo": {
+                "CARDNO": "8000002891",
+                "CLINICID": "297180912",
+                "DEPTCODE": "0363",
+                "DEPTNAME": "血液专科",
+                "DOCTID": "",
+                "DOCTNAME": "",
+                "ISONEACCOUNT": "0",
+                "PREPAYCOST": "0",
+                "PREPAYLIMIT": "1000",
+                "PRETIMES": "0",
+                "PRETOTAL": "0",
+                "REGDATE": "2023-10-20 16:30:00"
+            }
+        },
+        "ResultCode": "0"
+    }
+}
+
+耗时: 0.03803420066833496秒
+[2023-10-19 15:13:27 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:27] "GET /api/outpatient/deposit/check HTTP/1.1" 200 -
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=Hh7RNrQrN67XkleaIdi6tlp1-18=, auth=Hh7RNrQrN67XkleaIdi6tlp1-18=
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=SjkZSI2lLbdc-TxRYQdku7v4W4A=, auth=SjkZSI2lLbdc-TxRYQdku7v4W4A=
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=PlVy_3sIegEmq7wLVuKaWfbiITE=, auth=PlVy_3sIegEmq7wLVuKaWfbiITE=
+[2023-10-19 15:13:35 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:35] "GET /api/version/android HTTP/1.1" 200 -
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/ihbackend/__init__.py:164]
+准备请求百慧接口: {'Ihis-PartnerId': 'T000012', 'Ihis-Api-Id': 'queryRegAppointment', 'Ihis-Time': '1697699615939', 'Ihis-executeId': '4b85f140-e6b8-4cf0-9326-db022df70c81', 'Ihis-Sign': '7BAF5956AD370F803785623F0DA219B8', 'Ihis-IsEncrypt': 'Y'} 
+ payload: {'patMedNo': '8000002891', 'patName': '陈昌伟', 'idcardNo': '440882199908271515', 'birthday': '1999-08-27', 'sex': 'M', 'mobile': '13420100620', 'hospitalDistrict': 'BYQ', 'channel': 'THIRD_APP'} 
+ need_encrypt: True
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=JsgNTGI0s2UMewud9UdEwpS1eB8=, auth=JsgNTGI0s2UMewud9UdEwpS1eB8=
+[2023-10-19 15:13:35 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:35] "GET /api/dict/settings HTTP/1.1" 200 -
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=rrHUa80hzs98odLDgWQ8-t4Ypsc=, auth=rrHUa80hzs98odLDgWQ8-t4Ypsc=
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:13:35 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=Xtr6xnvA6PuYhskx50qzruieR8Q=, auth=Xtr6xnvA6PuYhskx50qzruieR8Q=
+[2023-10-19 15:13:35 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:35] "GET /api/marquees HTTP/1.1" 200 -
+[2023-10-19 15:13:35 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:35] "GET /api/settings?type=all HTTP/1.1" 200 -
+[2023-10-19 15:13:36 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:36] "GET /api/modules?code=index_down HTTP/1.1" 200 -
+[2023-10-19 15:13:36 INFO] [in /Users/xx/workspace/zdfy-app-server/src/hbackend/hbackendrequest.py:91]
+请求平台接口[GetPersonInfo.go][request_id: 5303f9c63e136b833281e43ce9ef6478]
+
+url: http://10.168.199.136:1808/HBackend/GetPersonInfo.go
+
+请求方式: GET
+
+请求参数: {
+    "idenno": "440882199908271515"
+}
+
+headers参数: {
+    "x-code": "c4ab4b4d",
+    "x-random": "8f06d7e35cea46c7",
+    "x-sign": "LaizHBVMGF4VNQQCaBH8e8t-TDE",
+    "x-time": "1697699615982"
+}
+
+HTTP状态码: 200
+
+响应结果: {
+    "address": "广东省广州市天河区广东省广州市",
+    "birthday": "1999-08-27 00:00:00",
+    "cardNo": "8000002891",
+    "cardType": "1",
+    "errorMsg": null,
+    "idenno": "440882199908271515",
+    "isAuth": "1",
+    "mcardNo": null,
+    "medicalType": null,
+    "name": "陈昌伟",
+    "pactCode": "201",
+    "pactName": "广州医保",
+    "patientType": "2",
+    "paykindCode": "02",
+    "paykindName": "医保",
+    "relaPhone": "13420100620",
+    "resultCode": null,
+    "sexCode": "M"
+}
+
+耗时: 0.03757905960083008秒
+[2023-10-19 15:13:36 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/biz/user.py:1783]
+HIS查询到的用户信息 got: True,  his_user_info: {"address": "广东省广州市天河区广东省广州市", "birthday": "1999-08-27 00:00:00", "cardNo": "8000002891", "cardType": "1", "errorMsg": null, "idenno": "440882199908271515", "isAuth": "1", "mcardNo": null, "medicalType": null, "name": "陈昌伟", "pactCode": "201", "pactName": "广州医保", "patientType": "2", "paykindCode": "02", "paykindName": "医保", "relaPhone": "13420100620", "resultCode": null, "sexCode": "M"}
+[2023-10-19 15:13:36 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:36] "GET /api/myreservation/0?is_examine=0&status=2&type=pendingEvent HTTP/1.1" 200 -
+[2023-10-19 15:13:36 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:36] "GET /api/user/userinfo?desensitized=&verify_code= HTTP/1.1" 200 -
+[2023-10-19 15:13:36 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:13:36 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=oMiQECsDaaukSE_M_Oisfv_pzB0=, auth=oMiQECsDaaukSE_M_Oisfv_pzB0=
+[2023-10-19 15:13:36 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:448]
+登陆校验：user_info['user_serial']: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+[2023-10-19 15:13:36 WARNING] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:457]
+auth_to_check=--628gBHjrcAs-rmi9znq8m7uyw=, auth=--628gBHjrcAs-rmi9znq8m7uyw=
+[2023-10-19 15:13:36 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:36] "GET /api/notification/badge?user_id=279570 HTTP/1.1" 200 -
+[2023-10-19 15:13:36 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:13:36] "GET /api/myreservation/0?is_examine=0&status=1 HTTP/1.1" 200 -
+[2023-10-19 15:14:50 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/ihospital.py:147]
+获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out')), Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1040, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python@3.9/3.9.15/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/xx/workspace/zdfy-app-server/src/api/ihospital.py", line 121, in get_ihospital_rsv_info
+    code, bh_data = third_party.get_ih_rsv_info(user_id, HTTP.get_hospital_id(), extras=extras)
+  File "/Users/xx/workspace/zdfy-app-server/src/biz/third_party.py", line 334, in get_ih_rsv_info
+    return BHService().invoke("queryRegAppointment", payload)
+  File "/Users/xx/workspace/zdfy-app-server/src/ihbackend/__init__.py", line 172, in invoke
+    got, data = self.post(payload=payload, headers=headers, timeout=timeout, encrypt=need_encrypt)
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 90, in post
+    return self.call(
+  File "/Users/xx/workspace/zdfy-app-server/src/common/http_request.py", line 65, in call
+    r = fn(self.url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+[2023-10-19 15:14:50 ERROR] [in /Users/xx/workspace/zdfy-app-server/src/api/__init__.py:254]
+attentionStatus400: url: /api/ihospital/reservation/info headers:Host: frp01.carekd.com
+User-Agent: okhttp/3.14.9
+Accept-Encoding: gzip
+Remote-Host: 14.23.155.6
+X-Api-Version: 1
+X-App-Version: 5.8.0-155
+X-Auth: Hh7RNrQrN67XkleaIdi6tlp1-18=
+X-Caremodel: 0
+X-Device-Id: 1708e50cd715cbf3samsung
+X-Device-Model: SM-G9550
+X-Device-Name: Galaxy%20S8%2B
+X-Device-Version: 9
+X-Fontsize: 2
+X-Forwarded-For: 14.23.155.6, 127.0.0.1
+X-Hospital-Id: 1
+X-Ostype: android
+X-Real-Ip: 14.23.155.6
+X-Relative-Id: 279570
+X-Seed: 1697699614354
+X-Serial: 7dc7e057-83f1-4db9-ad99-2fe9889fadcc
+X-User-Id: 279570
+
+ response_content: {"message": "获取患者云诊室预约信息失败, user_id: 279570, HTTPConnectionPool(host='10.168.199.150', port=80): Max retries exceeded with url: /ihis-cgi-test/partner/v1/index (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114fd7760>: Failed to establish a new connection: [Errno 60] Operation timed out'))", "status": 400}
+[2023-10-19 15:14:50 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:14:50] "GET /api/ihospital/reservation/info HTTP/1.1" 400 -
+[2023-10-19 15:14:54 INFO] [in /Users/xx/workspace/zdfy-app-server/src/hbackend/hbackendrequest.py:91]
+请求平台接口[universal/OpClinicBalancePactType.go][request_id: 90913836e5fb9c16b7657355252461ab]
+
+url: http://10.168.199.136:1808/HBackend/universal/OpClinicBalancePactType.go
+
+请求方式: POST
+
+请求参数: {
+    "appInfo": "{\"CardNo\": \"8000002891\", \"ClinicID\": \"297180912\", \"Settlement\": \"\", \"InsuranceTypeOne\": \"自费\", \"InsuranceTypeTwo\": \"\", \"InsuranceTypeThree\": \"\", \"Mark\": \"\", \"OperDate\": \"2023-10-19 15:14:54\", \"UserID\": \"APP001\", \"Source\": \"2\"}"
+}
+
+headers参数: {
+    "x-code": "c4ab4b4d",
+    "x-random": "5c6c1fe585464c5e",
+    "x-sign": "xwqTPfdg8Y23A0eul71npwJEVqI",
+    "x-time": "1697699694097"
+}
+
+HTTP状态码: 200
+
+响应结果: {
+    "Response": {
+        "ErrorMsg": "",
+        "ResultCode": "0",
+        "ResultData": {
+            "ResultMark": "0",
+            "ResultMessage": "结算类型通知成功！"
+        }
+    }
+}
+
+耗时: 0.07742071151733398秒
+[2023-10-19 15:14:54 INFO] [in /Users/xx/.local/share/virtualenvs/zdfy-app-server-TJ5wQuIV/lib/python3.9/site-packages/werkzeug/_internal.py:88]
+127.0.0.1 - - [19/Oct/2023 15:14:54] "POST /api/outpatient/updatesettlementtype HTTP/1.1" 200 -
